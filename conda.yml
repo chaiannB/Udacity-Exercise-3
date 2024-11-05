@@ -1,0 +1,14 @@
+name: exercise_3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - requests=2.24.0
+  - python=3.9
+  - mlflow=2.2.2
+  - protobuf=3.20
+  - hydra-core=1.0.6
+  - pip=20.3.3
+  - pip:
+      - wandb==0.10.21
+      - databricks_cli==0.18.0
